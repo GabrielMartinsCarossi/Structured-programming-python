@@ -1,0 +1,18 @@
+A = float(input("Insira um número decimal (A): "))
+B = int(input("Insira um número inteiro (B):"))
+
+print("Calculando")
+print(".")
+print("..")
+print("...")
+print("Resultados:")
+print("")
+ 
+print("A x B = ", A*B)
+print("A / B = ", A/B)
+# print("A / B = (com duas casas decimais) " % (A/B))
+print("Com duas casas decimais é %.2f:" % (A/B) )
+print("A + B = ", A + B)
+print("A - B = ", A - B)
+print("A ^ B = ", A**B)
+print("A ^ (1/B) = ", A**(1/B))

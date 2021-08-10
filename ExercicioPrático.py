@@ -1,0 +1,13 @@
+print("")
+print("---CÁLCULO DE MÉDIA DA DISCIPLINA---")
+print("")
+nome = input("Qual o seu nome? ")
+notaTrabalho = float(input("Insira a nota do trabalho: "))
+notaProva = float(input("Insira a nota da prova: "))
+notaTeste = float(input("Insira a nota do teste: "))
+
+notaFinal = (notaTrabalho*0.1)+(notaProva*0.6)+(notaTeste*0.3)
+print("Sua nota final é: ")
+print("+-----+")
+print("|%.2f" % notaFinal, "|")
+print("+-----+")
